@@ -6,7 +6,7 @@ class Usuario {
         this.mascotas=mascotas;
     }
     mostrarUsuario(){
-        console.log(Usuario);
+        console.log(this);
     }
     getFullName() {
         console.log(`Nombre Completo: ${this.nombre} ${this.apellido}`);
