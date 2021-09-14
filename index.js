@@ -35,7 +35,7 @@ class Usuario {
 const userPrueba = new Usuario ('Cosme','Fulanito',[{titulo:'Harry Potter',autor:'JK Rowling'},{titulo:'La Iliada',autor:'Homero'}],['milanesa','firulais','pepito']);
 
 // console.log('Usuario: ',userPrueba);
-mostrarUsuario()
+userPrueba.mostrarUsuario()
 
 
 userPrueba.getFullName();
